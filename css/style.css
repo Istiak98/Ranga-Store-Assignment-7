@@ -34,6 +34,7 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+ /* background-color:gray */
 }
 .single-product {
   padding: 10px;
@@ -42,7 +43,7 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 2px solid darkgoldenrod;
+  border: 2px solid black;
 }
 .product-image {
   width: 150px;
@@ -61,8 +62,13 @@ body {
   padding-right: 30px;
 }
 .rated-p {
+  font-weight: 700;
   color: blue;
   font-size: large;
+}
+.ct{
+  background-color: whitesmoke;
+ 
 }
 @media only screen and (max-width: 768px) {
   #all-products {
